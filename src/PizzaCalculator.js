@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './PizzaCalculator.css';
+import React, { Component } from "react";
+import "./PizzaCalculator.css";
 
 class PizzaCalculator extends Component {
   constructor(props) {
@@ -64,9 +64,12 @@ class PizzaCalculator extends Component {
         <button onClick={this.calculateCostsPerPerson}>Calculate</button>
         <div className="costs-per-person">
           {this.state.costsPerPerson.map((cost, index) => (
-            <p key={index}>Cost of Pizza {index + 1}: &#8377;{cost}</p>
+            <p key={index}>
+              Cost of Pizza {index + 1}: &#8377;{cost}
+            </p>
           ))}
         </div>
+        <footer> Created by Prachi Singh</footer>
       </div>
     );
   }
