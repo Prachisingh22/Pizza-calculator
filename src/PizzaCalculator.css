@@ -1,0 +1,45 @@
+.pizza-calculator {
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-image: url(pizzza2.jpg);
+    
+  }
+  body{
+    background-image: url(pizza.jpg);
+  }
+  
+  .input-container {
+    margin-bottom: 10px ;
+  }
+  
+  input {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .costs-per-person p {
+    margin: 5px 0;
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
